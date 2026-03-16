@@ -3,31 +3,31 @@ import { Badge } from "@/components/ui/badge"
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white">Набор открыт</Badge>,
-    title: "Время строить будущее.",
+    subtitle: <Badge variant="outline" className="text-[#00FF88] border-[#00FF88]">ТОП 2024</Badge>,
+    title: "Лучшие игры всех времён.",
     showButton: true,
-    buttonText: 'Присоединиться'
+    buttonText: 'Исследовать'
   },
   {
-    id: 'about',
-    title: 'Почему мы?',
-    content: 'Мы предоставляем ресурсы, менторство и поддерживающее сообщество для развития ваших проектов.'
+    id: 'action',
+    title: 'Экшн и приключения',
+    content: 'Red Dead Redemption 2, GTA V, The Witcher 3 — открытые миры, которые затягивают на сотни часов. Эпические сюжеты, живые персонажи и бесконечная свобода действий.'
   },
   {
-    id: 'features',
-    title: 'Что мы предлагаем',
-    content: 'Доступ к экспертным консультациям, нетворкингу и современным инструментам для ускорения вашего роста.'
+    id: 'rpg',
+    title: 'Ролевые игры',
+    content: 'Elden Ring, Baldur\'s Gate 3, Dark Souls — шедевры жанра, где каждое решение меняет исход. Прокачивай персонажа, изучай глубокий лор и побеждай невозможное.'
   },
   {
-    id: 'testimonials',
-    title: 'Истории успеха',
-    content: 'Узнайте, как участники сообщества превратили свои идеи в успешные проекты.'
+    id: 'online',
+    title: 'Многопользовательские хиты',
+    content: 'Fortnite, Valorant, Counter-Strike 2 — битвы с игроками со всего мира. Командная игра, стратегия и молниеносные рефлексы решают всё.'
   },
   {
-    id: 'join',
-    title: 'Начните сейчас',
-    content: 'Готовы вывести свой проект на новый уровень? Присоединяйтесь к нашему сообществу и начните строить своё будущее.',
+    id: 'discover',
+    title: 'Найди свою игру',
+    content: 'Тысячи игр ждут тебя — от инди-шедевров до блокбастеров. Погрузись в мир, который ты ещё не видел.',
     showButton: true,
-    buttonText: 'Начать'
+    buttonText: 'Смотреть все'
   },
 ]
